@@ -1,0 +1,40 @@
+{
+  "eslint.validate": [
+    {
+      "language": "javascript",
+      "autoFix": true
+    },
+    {
+      "language": "javascriptreact",
+      "autoFix": true
+    },
+    {
+      "language": "vue",
+      "autoFix": true
+    }
+  ],
+  "eslint.autoFixOnSave": false,
+  "vetur.format.defaultFormatter.css": "prettier",
+  "vetur.format.defaultFormatter.html": "none",
+  "vetur.format.defaultFormatter.js": "none",
+  "vetur.format.defaultFormatter.less": "prettier",
+  "vetur.format.defaultFormatter.postcss": "prettier",
+  "vetur.format.defaultFormatter.scss": "prettier",
+  "vetur.format.defaultFormatter.stylus": "stylus-supremacy",
+  "vetur.format.defaultFormatter.ts": "none",
+  "javascript.format.enable": false,
+  "typescript.format.enable": false,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/bower_components": true
+  },
+  "search.exclude": {
+    "dist/**": true
+  },
+  "window.zoomLevel": 0
+}
